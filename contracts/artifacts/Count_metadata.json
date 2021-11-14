@@ -1,10 +1,29 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.10+commit.fc410830"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "increment",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
 			{
 				"inputs": [],
 				"name": "retrieve",
@@ -35,10 +54,19 @@
 		"devdoc": {
 			"kind": "dev",
 			"methods": {
+				"increment(uint256)": {
+					"details": "increment value ",
+					"params": {
+						"num": "value to be added to 'count'"
+					},
+					"returns": {
+						"_0": "value of 'count'"
+					}
+				},
 				"retrieve()": {
 					"details": "Return value ",
 					"returns": {
-						"_0": "value of 'number'"
+						"_0": "value of 'count'"
 					}
 				},
 				"store(uint256)": {
@@ -73,11 +101,11 @@
 	},
 	"sources": {
 		"contracts/Counter.sol": {
-			"keccak256": "0x411f2dd6c009ee08a262c0aacf6de02e4e280b8e30c4c52723d1f651a6f1d56c",
+			"keccak256": "0xcc203e77f35507b1bd831977ce88ae291885e4da69eae1624f62bc69dc859488",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://199d6a3d4196fce2057bb7e52b11615d35905c8ffdaecdfdfd873aba8e1ee1ce",
-				"dweb:/ipfs/QmeyAQPK9rpKUWQqksKyUNpGUEWWxu8Kf4LfPKxYKjhjfz"
+				"bzz-raw://c1abf57aca45d29ed482dccc6ddb717ab0e9bb6b41accfaa355f3cfce52f2494",
+				"dweb:/ipfs/QmfAtVNaVAmLSRDBSyCR181cgvEiahSbYeFw7ZQjUvnA5N"
 			]
 		}
 	},

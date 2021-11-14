@@ -16,9 +16,19 @@ contract Count {
 
     /**
      * @dev Return value 
-     * @return value of 'number'
+     * @return value of 'count'
      */
     function retrieve() public view returns (uint256){
+        return count;
+    }
+    
+    /**
+     * @dev increment value 
+     * @param num value to be added to 'count'
+     * @return value of 'count'
+     */
+    function increment(uint256 num) public returns (uint256) {
+        count += num;
         return count;
     }
 }
