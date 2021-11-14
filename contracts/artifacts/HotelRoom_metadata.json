@@ -31,13 +31,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "book",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -48,6 +41,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -78,11 +75,11 @@
 	},
 	"sources": {
 		"contracts/HotelRoom.sol": {
-			"keccak256": "0x0ce094b7857a885f398a2c7176e30a3a04ff37daf46614331d27d02e9cec71e6",
+			"keccak256": "0xa72c0b8f9f8f91a5628c4ac9e4dd7a70d62b4503c22506ff49aaf1e443f240bc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9ba2063747fbe373ec7c22316dc5b003aa02c81ab6783ba858dddc6bfae3e48c",
-				"dweb:/ipfs/QmZq1nLppGG4nL3bmVCjsBz7hR5S59WhyPscYZ6ReWaHue"
+				"bzz-raw://bac323060eaa2d7bd06ae4a06d3fef67625f21c9be7716a89e7e48b43d8a7d25",
+				"dweb:/ipfs/QmaG64YiZrvYFUmBKz5BoSUBFxNwhrn9zHnmvxXAYyKwKa"
 			]
 		}
 	},
