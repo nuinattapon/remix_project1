@@ -14,6 +14,66 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_author",
+						"type": "string"
+					}
+				],
+				"name": "addBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "books",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "author",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -24,6 +84,19 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -58,11 +131,11 @@
 	},
 	"sources": {
 		"contracts/MyContract.sol": {
-			"keccak256": "0xf9ec94a6ef8c8c1065c7eeae18219fd76a4147247e7454c169e065bcdd643571",
+			"keccak256": "0x6a0d207f2baab12d9ccf2f89429879a74a7e51e7c7744b428c33898ba76fa70a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ae3b6694a0e71a7a35201e82d092f26359d674e45ddaa9a12d3cad097f869d2d",
-				"dweb:/ipfs/QmW5MgQodE8DY2gWcfUzVp2F9jzq1KXhMDvuix7sxcdTnY"
+				"bzz-raw://9fdc5f1811b06e967311c7890c24bc138eaf06f6b8d8eff83597486a1dd9ee23",
+				"dweb:/ipfs/QmTKxsqcJmwc3LhtA6K9Zh7RS8BeA6GBJbujc9CbzJDS3o"
 			]
 		}
 	},
