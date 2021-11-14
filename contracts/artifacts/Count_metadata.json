@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -67,6 +72,9 @@
 		"devdoc": {
 			"kind": "dev",
 			"methods": {
+				"constructor": {
+					"details": "A public constructor"
+				},
 				"increment()": {
 					"details": "increment counter by 1",
 					"returns": {
@@ -120,11 +128,11 @@
 	},
 	"sources": {
 		"contracts/Counter.sol": {
-			"keccak256": "0x4d9781bd6a4e0b689dbf4cc96bb60fe7c06432cacda813a8859bf897a16de83a",
+			"keccak256": "0x4352e76e5a242ee3fed30d212df63e59a36d23ed8924cdbba15674a0ab081abd",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://05bfe93a63d328e4ef491d854e8cdf6f4c4d2410e42041b865cef946a04e9604",
-				"dweb:/ipfs/QmXcobdmntuvcyV5V5wbRuzPf77nWsCuJpL7V1rtdP8vew"
+				"bzz-raw://3e2486c1db738cf6890cb56b57db2f405cd59247fa16fd787de645d832b5252e",
+				"dweb:/ipfs/QmbhBq3CYqym2D8Hgk7BH3jJgKRyoXPnUrcN8Sii4Q5sso"
 			]
 		}
 	},

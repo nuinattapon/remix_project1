@@ -1,10 +1,17 @@
 // SPDX-License-Identifier: GPL-3.0
 
-pragma solidity >=0.7.0 <0.9.0;
+pragma solidity >=0.8.10 <0.9.0;
 
 contract Count {
 
     uint256 count;
+    
+    /**
+     * @dev A public constructor
+     */    
+    constructor() {
+        count = 0;
+    }
 
     /**
      * @dev Store value in variable
