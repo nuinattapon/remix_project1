@@ -26,6 +26,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "increment",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "retrieve",
 				"outputs": [
 					{
@@ -54,6 +67,12 @@
 		"devdoc": {
 			"kind": "dev",
 			"methods": {
+				"increment()": {
+					"details": "increment counter by 1",
+					"returns": {
+						"_0": "value of 'count'"
+					}
+				},
 				"increment(uint256)": {
 					"details": "increment value ",
 					"params": {
@@ -101,11 +120,11 @@
 	},
 	"sources": {
 		"contracts/Counter.sol": {
-			"keccak256": "0xcc203e77f35507b1bd831977ce88ae291885e4da69eae1624f62bc69dc859488",
+			"keccak256": "0x4d9781bd6a4e0b689dbf4cc96bb60fe7c06432cacda813a8859bf897a16de83a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c1abf57aca45d29ed482dccc6ddb717ab0e9bb6b41accfaa355f3cfce52f2494",
-				"dweb:/ipfs/QmfAtVNaVAmLSRDBSyCR181cgvEiahSbYeFw7ZQjUvnA5N"
+				"bzz-raw://05bfe93a63d328e4ef491d854e8cdf6f4c4d2410e42041b865cef946a04e9604",
+				"dweb:/ipfs/QmXcobdmntuvcyV5V5wbRuzPf77nWsCuJpL7V1rtdP8vew"
 			]
 		}
 	},

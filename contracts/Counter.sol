@@ -31,4 +31,12 @@ contract Count {
         count += num;
         return count;
     }
+    
+    /**
+     * @dev increment counter by 1
+     * @return value of 'count'
+     */
+    function increment() public returns (uint256) {
+        return increment(1);
+    }
 }
