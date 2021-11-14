@@ -2,30 +2,33 @@
 
 pragma solidity >=0.8.4 <0.9.0;
 
+contract Ownable {
+    address payable public owner;
+    
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Must be owner.");
+        _;
+    }
+
+    constructor() {
+        owner = payable(msg.sender);
+    }
+}
+
+contract SecretVault is Ownable{
+    string secret;
+
+    constructor(string memory _secret) {
+        super;
+        secret = _secret;
+    }
+
+    function getSecret() public view onlyOwner returns (string memory) {
+        return secret;
+    }
+
+}
+
 contract MyContract {
     
-    // address
-    address public owner;
-    
-    function isOwner() public view returns(bool) {
-        return msg.sender == owner;
-    }
-    // mapping
-    mapping(uint256 => string) public names;
-    mapping(uint256 => Book) public books;
-    
-    struct Book {
-        string title;
-        string author;
-    }
-    
-    constructor() {
-        names[1] = "Nui";
-        names[2] = "Somboon";
-        names[3] = "Wassana";
-    }
-    
-    function addBook(uint256 _id, string memory _title, string memory _author) public {
-        books[_id] = Book(_title,_author);
-    }
 }

@@ -4,7 +4,26 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyContract.sol": "MyContract"
+			"contracts/MyContract.sol": "Ownable"
 		},
 		"evmVersion": "london",
 		"libraries": {},
