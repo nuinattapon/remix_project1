@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint24",
+						"name": "s",
+						"type": "uint24"
+					}
+				],
+				"name": "addScore",
+				"outputs": [
+					{
+						"internalType": "uint24[]",
+						"name": "",
+						"type": "uint24[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "clearArray",
+				"outputs": [
+					{
+						"internalType": "uint24[]",
+						"name": "",
+						"type": "uint24[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint24",
+						"name": "index",
+						"type": "uint24"
+					}
+				],
+				"name": "getScore",
+				"outputs": [
+					{
+						"internalType": "uint24",
+						"name": "",
+						"type": "uint24"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Score.sol": "Score"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Score.sol": {
+			"keccak256": "0x9d5dcd733b5a5824450f9330c11e91c432e508ce1775be832872e65284c4c25a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://520a35f3014eecc3be9314651e96dde17830652bb1d39d67a2139347049d88d3",
+				"dweb:/ipfs/QmZ8JZ6r8QpgNRByQ8Dvkswvii9tLDmwLLP5TCto87PB6R"
+			]
+		}
+	},
+	"version": 1
+}
